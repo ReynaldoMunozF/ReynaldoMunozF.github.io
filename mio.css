@@ -1,0 +1,125 @@
+
+
+     
+
+/* .slider{
+border-radius: 10px;
+}
+
+.logo_team{
+    display: flex;
+}
+.group{
+    text-align: right;
+    font-size: 35px;
+    font-weight: 800;
+    color: white;   
+}
+.group2{
+   border-radius: 9%; 
+  
+   opacity: 1;
+}
+.group2:hover{
+    box-shadow: 0px 0px 30px  rgb(255, 255, 255);
+    margin: -5px;
+}
+.grupo1{
+    display: flex;  
+    
+}
+
+.grupo1 img{
+    width: 80%;
+        
+}
+
+.grupo1 input{
+    width: 20%;
+    border-radius: 25%;
+    margin-top: 15%;
+    margin-bottom: 15%;
+    margin-right: 5%;    
+} */
+
+.prueba{
+    box-shadow: 0PX 0PX 10PX gray;
+   
+}
+
+.princi{
+    width: 100%;
+    font-size: 500%;    
+    text-align: center;
+    font-weight: bold;
+    vertical-align: top;
+}
+.secun{
+
+    font-size: 350%;
+    text-align: center;
+    font-weight: bold;
+    vertical-align: top;
+}
+
+.n_grupo{
+    display: flex;
+    color: rgb(2, 1, 12);
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    border-bottom: 1px solid grey;
+    padding-bottom: 2%;
+    color: rgb(27, 3, 136);
+    justify-content: center;
+    align-items: flex-end;   
+}
+.ptj{
+    display: flex;
+    color: rgb(27, 3, 136);
+    border-bottom: 1px solid grey;
+    font-size: 60px;
+    padding: 0%;
+    text-align: center;
+    justify-content: center;
+    align-items: flex-end;   
+    
+    
+   /*  box-shadow: 0PX 0PX 3PX gray; */
+   
+}
+.player{
+
+    width: 100%;
+    margin-left: 5%;
+    border-bottom: 1px solid grey;
+    
+
+}
+.player_casilla{
+    /* box-shadow: 0PX 0PX 4PX gray; */
+}
+
+.img_partidas{
+    width: 100%;
+}
+.box_jgd{
+    margin-top: 1%;
+    border-radius: 10px;
+    box-shadow: 0PX 0PX 5PX gray;
+    text-align: center;
+    
+}
+  
+.container2{
+    margin-top: 10%;
+    padding: 1%;
+    
+
+}
+.grupo_a{
+    margin: 5%;
+   
+}
+
+
