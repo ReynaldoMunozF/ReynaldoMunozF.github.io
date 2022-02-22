@@ -100,26 +100,44 @@ border-radius: 10px;
     /* box-shadow: 0PX 0PX 4PX gray; */
 }
 
-.img_partidas{
-    width: 100%;
-}
-.box_jgd{
-    margin-top: 1%;
-    border-radius: 10px;
-    box-shadow: 0PX 0PX 5PX gray;
-    text-align: center;
-    
-}
+
   
 .container2{
+    display: flex;
+    align-items: flex-start;
     margin-top: 10%;
     padding: 1%;
     
 
 }
 .grupo_a{
+    display: flex;
     margin: 5%;
+    justify-content: space-around;
+    box-shadow: 0PX 0PX 5PX gray;
+    border-radius: 10px;
+
    
 }
 
-
+.img_partidas{
+    width: 100%;
+    padding: 3%;
+   
+}
+.box_jgd{
+    margin: 1%;
+    border-radius: 10px;
+  
+}
+.vs1{
+    display: flex;
+    font-size: 20px;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    padding: 2%;
+    margin: 2%;
+    box-shadow: 0PX 0PX 8PX gray;
+}
