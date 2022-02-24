@@ -42,25 +42,33 @@ border-radius: 10px;
     margin-right: 5%;    
 } */
 .navbar{
-    background-color: rgb(0, 2, 95);
+    background-color: #015262;
 }
 
 .prueba{
-    box-shadow: 0PX 0PX 10PX rgb(0, 2, 95);;
+    box-shadow: 0PX 0PX 10PX rgb(109, 109, 109);;
     border-radius: 20px;
+   
+}
+.encabezado{
+    background-image: url(source/copa.png);
+    background-repeat: no-repeat;
+    background-size: 250px;
+    background-position: center;
+  
    
 }
 
 .princi{
-    color: rgb(18, 18, 128);
-    text-shadow: 0px 0px 10px rgb(127, 237, 251);
-    font-size: 500%;    
+    color: #014553;
+    text-shadow: 0px 0px 5px rgb(0, 153, 173);
+    font-size: 550%;    
     text-align: center;
     font-weight: bold;
     vertical-align: top;
 }
 .secun{
-    color: rgb(0, 4, 228);
+    color: #004e5d;
     
     font-size: 250%;
     text-align: center;
@@ -68,7 +76,7 @@ border-radius: 10px;
     vertical-align: top;
 }
 .secun2{
-    color: rgb(0, 4, 228);
+    color: #FF5D73;
     
     font-size: 350%;
     text-align: center;
@@ -76,6 +84,7 @@ border-radius: 10px;
     vertical-align: top;
     margin-top: 5%;
     margin-bottom: 5%;
+    text-shadow: 0PX 0PX 5PX #5c020e;
 }
 
 .n_grupo{
@@ -88,7 +97,20 @@ border-radius: 10px;
     color: rgb(255, 255, 255);
     justify-content: center;
     align-items: flex-start;   
-    background-color: rgb(0, 2, 95);
+    background-color: #007890;
+  
+}
+.n_grupo2{
+    display: flex;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    border-bottom: 1px solid grey;
+    padding-bottom: 2%;
+    color: rgb(255, 255, 255);
+    justify-content: center;
+    align-items: flex-start;   
+    background-color: #FF5D73;
   
 }
 .ptj{
@@ -109,7 +131,7 @@ border-radius: 10px;
 
     width: 100%;
     margin-left: 5%;
-    border-bottom: 1px solid rgb(0, 2, 95);;
+    border-bottom: 1px solid rgb(83, 83, 83);;
     
 
 }
@@ -131,7 +153,7 @@ border-radius: 10px;
     display: flex;
     margin: 5%;
     justify-content: space-around;
-    box-shadow: 0PX 0PX 5PX rgb(0, 2, 95);;
+    box-shadow: 0PX 0PX 5PX rgb(88, 88, 88);;
     border-radius: 10px;
 
    
@@ -140,11 +162,13 @@ border-radius: 10px;
 .img_partidas{
     width: 100%;
     padding: 3%;
+
    
 }
 .box_jgd{
     margin: 1%;
     border-radius: 10px;
+    text-align: center;
   
 }
 .vs1{
@@ -156,9 +180,22 @@ border-radius: 10px;
     border-radius: 100%;
     padding: 2%;
     margin: 2%;
-    box-shadow: 0PX 0PX 8PX rgb(94, 217, 255);
+    box-shadow: 0PX 0PX 8PX #555555;
     color: white;
-    background-color: rgb(0, 4, 228);
+    background-color: #FF5D73;
+}
+.vs2{
+    display: flex;
+    font-size: 20px;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    padding: 2%;
+    margin: 2%;
+    box-shadow: 0PX 0PX 8PX #555555;
+    color: white;
+    background-color: #007890;
 }
   
 .container3{
@@ -168,4 +205,19 @@ border-radius: 10px;
     padding: 1%;
     
 
+}
+.img_partidasfin{
+
+    width: 100%;
+    padding: 3%;
+
+}
+.piedepagina{
+    background-color: rgb(192, 189, 189);
+    text-align: center;
+    font-size: 10px;
+    font-weight: bold;
+}
+.imagenpie{
+    width: 50px;
 }
