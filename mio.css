@@ -102,7 +102,7 @@ border-radius: 10px;
 }
 .n_grupo2{
     display: flex;
-    font-size: 40px;
+    font-size: 3em;
     font-weight: bold;
     text-align: center;
     border-bottom: 1px solid grey;
@@ -115,9 +115,8 @@ border-radius: 10px;
 }
 .ptj{
     display: flex;
-    color: rgb(27, 3, 136);
-    border-bottom: 1px solid grey;
-    font-size: 60px;
+    color: rgb(46, 46, 46);
+    font-size: 4.5em;
     padding: 0%;
     text-align: center;
     justify-content: center;
@@ -173,7 +172,7 @@ border-radius: 10px;
 }
 .vs1{
     display: flex;
-    font-size: 20px;
+    font-size: 2em;
     font-weight: bold;
     justify-content: center;
     align-items: center;
@@ -186,7 +185,7 @@ border-radius: 10px;
 }
 .vs2{
     display: flex;
-    font-size: 20px;
+    font-size: 2em;
     font-weight: bold;
     justify-content: center;
     align-items: center;
