@@ -89,7 +89,7 @@ border-radius: 10px;
     justify-content: center;
     align-items: flex-start;   
     background-color: rgb(0, 2, 95);
-    border-radius: 20px;
+  
 }
 .ptj{
     display: flex;
@@ -159,4 +159,13 @@ border-radius: 10px;
     box-shadow: 0PX 0PX 8PX rgb(94, 217, 255);
     color: white;
     background-color: rgb(0, 4, 228);
+}
+  
+.container3{
+    display: flex;
+    align-items: flex-start;
+    margin-top: 5%;
+    padding: 1%;
+    
+
 }
