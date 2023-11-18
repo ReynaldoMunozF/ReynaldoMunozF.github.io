@@ -123,35 +123,44 @@ let recogerColores = JSON.parse(sessionStorage.getItem("coloresJugar"));
 console.log(recogerColores);
 
 
-
 for (let i = 0; i < contenedorColores.length; i++) {
   contenedorColores[i].style.backgroundColor = recogerColores[i];
-}
+ 
+  contenedorColores[i].addEventListener("click", function () {
+     let color0 = contenedorColores[i].style.backgroundColor;
+     sessionStorage.setItem("colorEscogido", color0);
+  });
+ }
+// for (let i = 0; i < contenedorColores.length; i++) {
+//   contenedorColores[i].style.backgroundColor = recogerColores[i];
+// }
 
-contenedorColores[0].addEventListener("click", function () {
-let color0 = contenedorColores[0].style.backgroundColor;
-sessionStorage.setItem("colorEscogido", color0)
-})  
-contenedorColores[1].addEventListener("click", function () {
-let color0 = contenedorColores[1].style.backgroundColor;
-sessionStorage.setItem("colorEscogido", color0)
-})  
-contenedorColores[2].addEventListener("click", function () {
-let color0 = contenedorColores[2].style.backgroundColor;
-sessionStorage.setItem("colorEscogido", color0)
-})  
-contenedorColores[3].addEventListener("click", function () {
-let color0 = contenedorColores[3].style.backgroundColor;
-sessionStorage.setItem("colorEscogido", color0)
-})  
-contenedorColores[4].addEventListener("click", function () {
-let color0 = contenedorColores[4].style.backgroundColor;
-sessionStorage.setItem("colorEscogido", color0)
-})  
-contenedorColores[5].addEventListener("click", function () {
-let color0 = contenedorColores[5].style.backgroundColor;
-sessionStorage.setItem("colorEscogido", color0)
-})  
+
+// contenedorColores[i].addEventListener("click", function () {
+// let color0 = contenedorColores[i].style.backgroundColor;
+// sessionStorage.setItem("colorEscogido", color0)
+// })  
+
+// contenedorColores[1].addEventListener("click", function () {
+// let color0 = contenedorColores[1].style.backgroundColor;
+// sessionStorage.setItem("colorEscogido", color0)
+// })  
+// contenedorColores[2].addEventListener("click", function () {
+// let color0 = contenedorColores[2].style.backgroundColor;
+// sessionStorage.setItem("colorEscogido", color0)
+// })  
+// contenedorColores[3].addEventListener("click", function () {
+// let color0 = contenedorColores[3].style.backgroundColor;
+// sessionStorage.setItem("colorEscogido", color0)
+// })  
+// contenedorColores[4].addEventListener("click", function () {
+// let color0 = contenedorColores[4].style.backgroundColor;
+// sessionStorage.setItem("colorEscogido", color0)
+// })  
+// contenedorColores[5].addEventListener("click", function () {
+// let color0 = contenedorColores[].style.backgroundColor;
+// sessionStorage.setItem("colorEscogido", color0)
+// })  
 
 
 
