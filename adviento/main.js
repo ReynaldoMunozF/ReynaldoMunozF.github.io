@@ -13,7 +13,7 @@ rey.addEventListener("click", function () {
 rafa.addEventListener("click", function () {
 let rspt =  prompt("adivina el nombre del rey mago").toUpperCase()
     if (rspt == "GASPAR"){
-    location.href = "sorpresaRey.html"
+    location.href = "sorpresaRafa.html"
 }else {
     prompt("vuelve a intentarlo")
 }
