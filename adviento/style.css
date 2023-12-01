@@ -56,7 +56,10 @@ body{
     width: 13em;
     height: 14em;
 }
-
+.img img{
+    width: 23em;
+    margin-top: 3em;
+}
 
 
 
