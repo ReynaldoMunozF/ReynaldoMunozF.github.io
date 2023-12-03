@@ -1,18 +1,18 @@
-let rafa = document.getElementById("rafa2");
-let rey = document.getElementById("rey2");
+let rafa = document.getElementById("rafa3");
+let rey = document.getElementById("rey3");
 
 
 rey.addEventListener("click", function () {
-  let rspt =  prompt("completa el villancico ... CAMPANA SOBRE CAMPANA Y SOBRE CAMPANA .X.X.X.X ").toUpperCase()
-    if (rspt == "UNA"){
+  let rspt =  prompt(" Nombra uno de los regalos que le dieron los reyes magos al niño Jesus").toUpperCase()
+    if (rspt == "MIRRA"){
     location.href = "sorpresaRey.html"
 }else {
     prompt("vuelve a intentarlo")
 }
 });
 rafa.addEventListener("click", function () {
-let rspt =  prompt("completa el villancico ... LA VIRGEN SE ESTA PEINANDO, SOBRE CORTINA Y CORTINA SUS CABELLOS SON DE  .X.X.X.X ").toUpperCase()
-    if (rspt == "ORO"){
+let rspt =  prompt(" Nombra uno de los regalos que le dieron los reyes magos al niño Jesus").toUpperCase()
+    if (rspt == "INCIENSO"){
     location.href = "sorpresaRafa.html"
 }else {
     prompt("vuelve a intentarlo")
