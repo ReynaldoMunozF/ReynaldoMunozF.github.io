@@ -1,18 +1,18 @@
-let rafa = document.getElementById("rafa3");
-let rey = document.getElementById("rey3");
+let rafa = document.getElementById("rafa4");
+let rey = document.getElementById("rey4");
 
 
 rey.addEventListener("click", function () {
-  let rspt =  prompt(" Nombra uno de los regalos que le dieron los reyes magos al niño Jesus").toUpperCase()
-    if (rspt == "MIRRA"){
+  let rspt =  prompt(" nombra uno de los renos de santa claus").toUpperCase()
+    if (rspt == "COMETA"){
     location.href = "sorpresaRey.html"
 }else {
     prompt("vuelve a intentarlo")
 }
 });
 rafa.addEventListener("click", function () {
-let rspt =  prompt(" Nombra uno de los regalos que le dieron los reyes magos al niño Jesus").toUpperCase()
-    if (rspt == "INCIENSO"){
+let rspt =  prompt(" nombra uno de los renos de santa claus").toUpperCase()
+    if (rspt == "CUPIDO"){
     location.href = "sorpresaRafa.html"
 }else {
     prompt("vuelve a intentarlo")
