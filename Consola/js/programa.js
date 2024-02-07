@@ -32,7 +32,7 @@ btnEncendido.onclick = function () {  //enciende la consola
     pantallaJuego.style.display = "block";
     Led.style.backgroundColor = "red";
     encendida = 1
-    document.getElementById("texto2").innerHTML="cualquier cosa"
+    
 }
 
 btnApagado.onclick = function () { //apaga la consola
